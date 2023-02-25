@@ -6,8 +6,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- This class represents a sequential server that can handle a single client at any given time.
- When a client connects, the server enters the state machine to handle the client's request.
+ * Sequential socket server - accepting one client at a time.
+ * This class represents a sequential server that can handle a single client at any given time.
+ * When a client connects, the server enters the state machine to handle the client's request.
  */
 public class Server {
 
