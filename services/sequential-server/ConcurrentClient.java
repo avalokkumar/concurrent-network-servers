@@ -23,7 +23,6 @@ public class ConcurrentClient {
     public static void main(String[] args) {
         // Create a thread pool of fixed size
         ExecutorService executor = Executors.newFixedThreadPool(NUM_CLIENTS);
-
         // Submit tasks to the thread pool to simulate multiple clients
         for (int i = 0; i < NUM_CLIENTS; i++) {
             final int clientId = i;
